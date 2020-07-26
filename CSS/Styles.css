@@ -61,9 +61,17 @@ a {
     margin: 10px 20px;
 }
 
-.bottom-container a:hover{
-    color: #EAF6F6;
+.bottom-container a:hover {
+    color: #24a19c;
+    border-radius: 3px;
+    padding: 1px;
+    background-color: #EAF6F6;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
+
 .skill-row {
     width      : 50%;
     text-align : left;
@@ -131,19 +139,24 @@ hr {
 }
 
 .bottom-container a {
-
-    color          : #11999E;
-    font-style     : 'Montserrat';
+    color: #11999E;
+    font-style: 'Montserrat';
     text-decoration: none;
-    margin-top     : 25px;
+    margin-top: 25px;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
 }
+
 
 p {
     line-height: 2;
 }
 
-.copyright{
-    color: #EAF6F6;
+.copyright {
+    color    : #EAF6F6;
     font-size: 0.75rem;
 }
 
